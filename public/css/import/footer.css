@@ -1,0 +1,74 @@
+.wp-first-footer{
+    background-color: rgb(43, 148, 165);
+    align-items: center;
+}
+
+.logo-footer{
+    flex-basis: 50%;
+    color: #fff;
+}
+.logo-footer a img{
+    width: 120px;
+}
+.wp-first-footer .form-search{
+    flex-basis: 50%;
+}
+.wp-first-footer .form-search input{
+    border: none;
+}
+.wp-first-footer .form-search i{
+    color: #fff;
+    border: 0.2px solid #dfdfdf;
+    padding: 11px 11px;
+    font-size: 18px;
+    border-left: none;
+}
+
+
+.body-footer{
+    padding: 30px 0px;
+    border-bottom: 1px solid rgb(209, 215, 220);
+}
+
+.list-cat{
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.cat-item{
+    list-style: inside;
+    color: #bcb5b5;
+}
+.cat-item-link{
+    color: rgb(108, 117, 125);
+    font-size: 13px;
+}
+
+.last-footer{
+    padding: 20px 5px;
+}
+
+.wp-contact, .wp-other{
+    line-height: 1.7;
+    flex-basis: 20%;
+}
+
+.title-contact-item, .title-other-item{
+    color: rgb(41, 41, 41);
+    font-size: 18px;
+}
+
+.sub-title-contact-item, .sub-title-other-item{
+    color: rgb(41, 41, 41);
+    font-size: 14px;
+}
+.sub-title-contact-item:hover, .sub-title-other-item:hover{
+    color: rgb(43, 148, 165);
+}
+.right-copyright{
+    font-size: 12px;
+    color: rgb(117, 117, 117);
+    text-align: right;
+    flex-basis: 68%;
+    line-height: 1.6;
+}
